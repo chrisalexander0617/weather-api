@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,700');
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: Roboto;
+    text-transform: capitalize;
+    
+}
+
+body 
+{
+    height: 100vh;
+    background:rgb(0, 78, 85);
+    color:#fff;
+    padding-top:100px;
+    text-align: center;
+}
+
+.container 
+{
+    margin:0 auto;
+    background:rgb(27, 27, 27);
+    height: 450px;
+    width:500px;
+    display:block;
+    box-shadow: 0px 4px 0px -1px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 0px 4px 0px -1px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 4px 0px -1px rgba(0,0,0,0.75); 
+}
+
+.weather 
+{
+    padding:30px;
+    padding-top:50px;
+    justify-content: center;
+    height: 300px;
+    width:100%;
+  
+    background:rgba(56, 56, 59, 0.5);
+}
+
+.weather #temp
+{
+    font-size:140px;
+}
+
+.weather #metric
+{
+    font-size:50px;
+}
+.weather #description
+{
+    font-size:20px;
+}
+.location
+{
+    padding:30px;
+    justify-content: center;
+    height: 150px;
+    width:100%;
+    background:white;
+    color:black;
+    
+}
+
+#city
+{
+   
+    font-size:40px;
+}
+#country 
+{
+    font-size:40px;
+}
