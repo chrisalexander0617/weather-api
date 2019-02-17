@@ -1,4 +1,7 @@
-window.addEventListener('load',function() {
+$(document).ready(function(){
+
+    
+    window.addEventListener('load',function() {
 
     navigator.geolocation.getCurrentPosition(success, error);
     
@@ -51,6 +54,9 @@ window.addEventListener('load',function() {
 
 
     }
+
+
+    });
 
 
 });
