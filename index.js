@@ -1,6 +1,3 @@
-$(document).ready(function(){
-
-    
     window.addEventListener('load',function() {
 
     navigator.geolocation.getCurrentPosition(success, error);
@@ -58,5 +55,3 @@ $(document).ready(function(){
 
     });
 
-
-});
